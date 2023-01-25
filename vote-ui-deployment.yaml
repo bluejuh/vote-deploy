@@ -14,7 +14,7 @@ spec:
         app: vote-ui
     spec:
       containers:
-      - image: docker.io/facefrontletsgo/vote:latest
+      - image: docker.io/facefrontletsgo/vote:03a5ac74f63636c67f9b6f49a163b03915669795
         name: vote-ui
         ports:
         - containerPort: 80
